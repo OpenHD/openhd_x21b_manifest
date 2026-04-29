@@ -1,0 +1,12 @@
+<manifest>
+  <remote name="github" fetch="https://github.com/OpenHD" />
+
+  <default remote="github" revision="master" sync-j="8" />
+
+  <project name="openhd_x21b_base" path="." />
+  <project name="openhd_x21b_kernel" path="kernel-6.1" />
+  <project name="openhd_x21b_buildroot" path="buildroot" />
+  <project name="openhd_x21b_u-boot" path="u-boot" />
+
+  <project name="rtl88x2eu" path="external/ohd-wifi-kernel/rtl88x2eu" />
+</manifest>
