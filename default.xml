@@ -10,5 +10,5 @@
   <project name="openhd_x21b_rtos" path="rtos" />
   <project name="openhd_x21b_external" path="external" />
   <project name="openhd_x21b_hal" path="hal" />
-  <project name="rtl88x2eu" path="external/ohd-wifi-kernel/rtl88x2eu" />
+  <project name="rtl88x2eu" path="external/ohd-wifi-kernel/rtl88x2eu" revision="openhd" />
 </manifest>
