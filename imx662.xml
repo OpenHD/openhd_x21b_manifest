@@ -3,7 +3,7 @@
   <remote name="github" fetch="https://github.com" />
   <default remote="openhd" revision="master" sync-j="8" />
   <project name="openhd_x21b_base" path="." revision="f7f253f6ce6c48e68a723e4a83af86f1b281abc7" />
-  <project name="openhd_x21b_kernel" path="kernel-6.1" revision="788830be91af759c3e7b6b969bf9cbcefdb658a5" />
+  <project name="openhd_x21b_kernel" path="kernel-6.1" revision="d12c642e356c0188321218386f6e006df9fee1f2" />
   <project name="openhd_x21b_buildroot" path="buildroot" />
   <project name="openhd_x21b_u-boot" path="u-boot" />
   <project name="openhd_x21b_rtos" path="rtos" />
