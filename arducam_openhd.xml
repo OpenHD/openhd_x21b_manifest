@@ -1,0 +1,15 @@
+<manifest>
+  <remote name="openhd" fetch="https://github.com/OpenHD" />
+  <remote name="github" fetch="https://github.com" />
+  <default remote="openhd" sync-j="8" />
+  
+  <project name="openhd_x21b_base" path="." revision="620da35be9690553b92a3e90ebc665bf879f8e69" />
+  <project name="openhd_x21b_kernel" path="kernel-6.1" revision="f3f9153fc6200b5ae3ccdfb03733fa54dad76df1" />
+  <project name="openhd_x21b_buildroot" path="buildroot" revision="306d15d1b2ad4bf2ecc1b7dfd0da0bf9fc1c5e29" />
+  <project name="openhd_x21b_u-boot" path="u-boot" revision="6dc3ebe47811b4fdbc997c19665e7517bf3e1646" />
+  <project name="openhd_x21b_rtos" path="rtos" revision="82d677c8bd32f82de1dab92b7c6cf4547e9e338e" />
+  <project name="openhd_x21b_external" path="external" revision="ec6910cd534d7423567ab8b99ffaed10e0c2cd40" />
+  <project name="openhd_x21b_hal" path="hal" revision="0639b3fdc7d3a8424528bb7b7bbfeca71f9443a4" />
+  <project name="rtl88x2eu" path="external/ohd-wifi-kernel/rtl88x2eu" revision="fdb80ceddafdc53ab4784805dbd75ea135e03aed" />
+  <project name="HermanChen/mpp" path="external/mpp" remote="github" revision="20959ec3dabb313b8c33ca0b7b09c06ffd2a9caa" />
+</manifest>
